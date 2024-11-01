@@ -36,8 +36,8 @@
       gutter: 1em,
       ..authors.map(author => align(center)[
         *#author.name* \
-        #author.email \
-        #author.affiliation
+        #author.id \
+        所属：#author.affiliation
       ]),
     ),
   )
